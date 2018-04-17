@@ -1,0 +1,28 @@
+{
+  "name": "naylah",
+  "version": "1.0.0",
+  "description": "This is a clean WordPress theme for my fiancee's portfolio",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/leonampd/naylah-wordpress-theme.git"
+  },
+  "keywords": [
+    "wordpress",
+    "photography",
+    "portfolio",
+    "nayla"
+  ],
+  "author": "Leonam Pereira Dias",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/leonampd/naylah-wordpress-theme#readme"
+}
