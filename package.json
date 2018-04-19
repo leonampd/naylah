@@ -4,14 +4,14 @@
   "description": "This is a clean WordPress theme for my fiancee's portfolio",
   "main": "index.js",
   "devDependencies": {
-    "gulp": "^3.9.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0"
+    "eslint-plugin-import": "^2.11.0",
+    "gulp": "^3.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint ./js/*.js"
+    "lint": "./node_modules/.bin/eslint"
   },
   "repository": {
     "type": "git",
