@@ -1,10 +1,9 @@
 const path = require('path')
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const extractSass = new ExtractTextPlugin({
-  filename: (getPath) => {
-    return getPath('css/[name].css')
-  },
+  filename: getPath => getPath('css/[name].css'),
 });
 
 module.exports = {
@@ -34,4 +33,3 @@ module.exports = {
     extractSass,
   ],
 }
-
