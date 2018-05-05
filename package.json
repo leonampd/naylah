@@ -2,12 +2,18 @@
   "name": "naylah",
   "version": "1.0.0",
   "description": "This is a clean WordPress theme for my fiancee's portfolio",
-  "main": "index.js",
+  "main": "assets/src/js/index.js",
   "devDependencies": {
+    "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
-    "gulp": "^3.9.1"
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.11.0",
+    "webpack-cli": "^2.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,5 +31,11 @@
   ],
   "author": "Leonam Pereira Dias",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/leonampd/naylah-wordpress-theme#readme"
+  "homepage": "https://bitbucket.org/leonampd/naylah-wordpress-theme#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3"
+  }
 }
