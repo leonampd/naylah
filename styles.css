@@ -1,0 +1,12 @@
+/*
+Theme Name: Naylah
+Theme URI: https://github.com/leonampd/naylah
+Author: Leonam Pereira Dias
+Author URI: https://github.com/leonampd
+Description: A theme developed for photographers
+Version: 0.1.0
+License: MIT
+Text Domain: naylah
+*/
+
+@import "./assets/dist/css/main.css";
