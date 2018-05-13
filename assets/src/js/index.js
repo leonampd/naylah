@@ -1,4 +1,4 @@
-const path = require('path')
-
 import '../sass/main.scss'
-const bootstrap = require('bootstrap')
+
+require('path')
+require('bootstrap')
