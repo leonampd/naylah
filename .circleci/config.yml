@@ -17,6 +17,9 @@ jobs:
       - run:
           name: Bundle
           command: './node_modules/.bin/webpack'
+      - run:
+          name: Lint
+          command: './node_modules/.bin/eslint .'
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
