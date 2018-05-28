@@ -1,0 +1,12 @@
+nav.navbar {
+    background: transparent;
+    a {
+        color: color('gray-dark');
+        &:hover {
+            color: #000;
+        }
+    }
+    button.navbar-toggler {
+        color: #000;
+    }
+}
