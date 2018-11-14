@@ -33,7 +33,7 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/leonampd/naylah-wordpress-theme#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "popper.js": "^1.14.3"
